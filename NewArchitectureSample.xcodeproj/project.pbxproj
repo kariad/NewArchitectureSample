@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0F2AB3ED2080BA4F0039BBB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2AB3EC2080BA4F0039BBB2 /* AppDelegate.swift */; };
-		0F2AB3EF2080BA4F0039BBB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2AB3EE2080BA4F0039BBB2 /* ViewController.swift */; };
-		0F2AB3F22080BA4F0039BBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2AB3F02080BA4F0039BBB2 /* Main.storyboard */; };
 		0F2AB3F42080BA500039BBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2AB3F32080BA500039BBB2 /* Assets.xcassets */; };
 		0F2AB3F72080BA500039BBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2AB3F52080BA500039BBB2 /* LaunchScreen.storyboard */; };
 		0F2AB4022080BA500039BBB2 /* NewArchitectureSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2AB4012080BA500039BBB2 /* NewArchitectureSampleTests.swift */; };
-		A6F4011520839ABF0013C97B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4010E20839ABF0013C97B /* Nimble.framework */; };
-		A6F4011620839ABF0013C97B /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4010F20839ABF0013C97B /* Quick.framework */; };
+		0F7AB82E20848BA60015F076 /* EventListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB82D20848BA60015F076 /* EventListPresenter.swift */; };
+		0F7AB83020848BED0015F076 /* EventListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB82F20848BED0015F076 /* EventListInteractor.swift */; };
+		0F7AB8332084974A0015F076 /* ConnpassEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB8322084974A0015F076 /* ConnpassEventModel.swift */; };
+		0F7AB835208497F00015F076 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB834208497F00015F076 /* EventCell.swift */; };
+		0F7AB83720849E140015F076 /* EventListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB83620849E140015F076 /* EventListUseCase.swift */; };
+		0F7AB83920858C6D0015F076 /* EventListTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB83820858C6D0015F076 /* EventListTranslator.swift */; };
+		0F7AB83C20858D220015F076 /* ConnpassEventEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB83B20858D220015F076 /* ConnpassEventEntity.swift */; };
+		0F7AB83E20858D4F0015F076 /* EventListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB83D20858D4F0015F076 /* EventListRepository.swift */; };
+		0F7AB840208597DD0015F076 /* ConnpassEventListDateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB83F208597DD0015F076 /* ConnpassEventListDateStore.swift */; };
+		0F7AB8422085D1CD0015F076 /* EventListViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AB8412085D1CD0015F076 /* EventListViewState.swift */; };
+		0F878FB3208437680084C13F /* GlobalNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F878FB2208437680084C13F /* GlobalNavigationRouter.swift */; };
+		0F878FB5208451D30084C13F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4010E20839ABF0013C97B /* Nimble.framework */; };
+		0F878FB6208451D30084C13F /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4011420839ABF0013C97B /* PureLayout.framework */; };
+		0F878FB7208451D30084C13F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4010F20839ABF0013C97B /* Quick.framework */; };
+		0F878FB8208451D30084C13F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4011120839ABF0013C97B /* RxBlocking.framework */; };
+		0F878FB9208451D30084C13F /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4011320839ABF0013C97B /* RxTest.framework */; };
+		0F878FBF208489620084C13F /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F878FBE208489620084C13F /* EventListViewController.swift */; };
 		A6F4011720839ABF0013C97B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4011020839ABF0013C97B /* RxCocoa.framework */; };
-		A6F4011820839ABF0013C97B /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4011120839ABF0013C97B /* RxBlocking.framework */; };
 		A6F4011920839ABF0013C97B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4011220839ABF0013C97B /* RxSwift.framework */; };
-		A6F4011A20839ABF0013C97B /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4011320839ABF0013C97B /* RxTest.framework */; };
 		A6F4011B20839ABF0013C97B /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4011420839ABF0013C97B /* PureLayout.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,14 +46,24 @@
 /* Begin PBXFileReference section */
 		0F2AB3E92080BA4F0039BBB2 /* NewArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2AB3EC2080BA4F0039BBB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F2AB3EE2080BA4F0039BBB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0F2AB3F12080BA4F0039BBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F2AB3F32080BA500039BBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F2AB3F62080BA500039BBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F2AB3F82080BA500039BBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F2AB3FD2080BA500039BBB2 /* NewArchitectureSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewArchitectureSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2AB4012080BA500039BBB2 /* NewArchitectureSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArchitectureSampleTests.swift; sourceTree = "<group>"; };
 		0F2AB4032080BA500039BBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7AB82D20848BA60015F076 /* EventListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListPresenter.swift; sourceTree = "<group>"; };
+		0F7AB82F20848BED0015F076 /* EventListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListInteractor.swift; sourceTree = "<group>"; };
+		0F7AB8322084974A0015F076 /* ConnpassEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassEventModel.swift; sourceTree = "<group>"; };
+		0F7AB834208497F00015F076 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		0F7AB83620849E140015F076 /* EventListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListUseCase.swift; sourceTree = "<group>"; };
+		0F7AB83820858C6D0015F076 /* EventListTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListTranslator.swift; sourceTree = "<group>"; };
+		0F7AB83B20858D220015F076 /* ConnpassEventEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassEventEntity.swift; sourceTree = "<group>"; };
+		0F7AB83D20858D4F0015F076 /* EventListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListRepository.swift; sourceTree = "<group>"; };
+		0F7AB83F208597DD0015F076 /* ConnpassEventListDateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassEventListDateStore.swift; sourceTree = "<group>"; };
+		0F7AB8412085D1CD0015F076 /* EventListViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewState.swift; sourceTree = "<group>"; };
+		0F878FB2208437680084C13F /* GlobalNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalNavigationRouter.swift; sourceTree = "<group>"; };
+		0F878FBE208489620084C13F /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		A6F4010E20839ABF0013C97B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		A6F4010F20839ABF0013C97B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		A6F4011020839ABF0013C97B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
@@ -57,12 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F4011520839ABF0013C97B /* Nimble.framework in Frameworks */,
-				A6F4011620839ABF0013C97B /* Quick.framework in Frameworks */,
 				A6F4011720839ABF0013C97B /* RxCocoa.framework in Frameworks */,
-				A6F4011820839ABF0013C97B /* RxBlocking.framework in Frameworks */,
 				A6F4011920839ABF0013C97B /* RxSwift.framework in Frameworks */,
-				A6F4011A20839ABF0013C97B /* RxTest.framework in Frameworks */,
 				A6F4011B20839ABF0013C97B /* PureLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +88,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F878FB5208451D30084C13F /* Nimble.framework in Frameworks */,
+				0F878FB6208451D30084C13F /* PureLayout.framework in Frameworks */,
+				0F878FB7208451D30084C13F /* Quick.framework in Frameworks */,
+				0F878FB8208451D30084C13F /* RxBlocking.framework in Frameworks */,
+				0F878FB9208451D30084C13F /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +121,9 @@
 		0F2AB3EB2080BA4F0039BBB2 /* NewArchitectureSample */ = {
 			isa = PBXGroup;
 			children = (
+				0F878FBB208489410084C13F /* EventList */,
 				0F2AB3EC2080BA4F0039BBB2 /* AppDelegate.swift */,
-				0F2AB3EE2080BA4F0039BBB2 /* ViewController.swift */,
-				0F2AB3F02080BA4F0039BBB2 /* Main.storyboard */,
+				0F878FB2208437680084C13F /* GlobalNavigationRouter.swift */,
 				0F2AB3F32080BA500039BBB2 /* Assets.xcassets */,
 				0F2AB3F52080BA500039BBB2 /* LaunchScreen.storyboard */,
 				0F2AB3F82080BA500039BBB2 /* Info.plist */,
@@ -116,6 +138,48 @@
 				0F2AB4032080BA500039BBB2 /* Info.plist */,
 			);
 			path = NewArchitectureSampleTests;
+			sourceTree = "<group>";
+		};
+		0F7AB82C20848B7E0015F076 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0F878FBE208489620084C13F /* EventListViewController.swift */,
+				0F7AB82D20848BA60015F076 /* EventListPresenter.swift */,
+				0F7AB82F20848BED0015F076 /* EventListInteractor.swift */,
+				0F7AB834208497F00015F076 /* EventCell.swift */,
+				0F7AB8412085D1CD0015F076 /* EventListViewState.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0F7AB831208497240015F076 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0F7AB8322084974A0015F076 /* ConnpassEventModel.swift */,
+				0F7AB83620849E140015F076 /* EventListUseCase.swift */,
+				0F7AB83820858C6D0015F076 /* EventListTranslator.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0F7AB83A20858D020015F076 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0F7AB83B20858D220015F076 /* ConnpassEventEntity.swift */,
+				0F7AB83D20858D4F0015F076 /* EventListRepository.swift */,
+				0F7AB83F208597DD0015F076 /* ConnpassEventListDateStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0F878FBB208489410084C13F /* EventList */ = {
+			isa = PBXGroup;
+			children = (
+				0F7AB83A20858D020015F076 /* Data */,
+				0F7AB831208497240015F076 /* Domain */,
+				0F7AB82C20848B7E0015F076 /* Presentation */,
+			);
+			path = EventList;
 			sourceTree = "<group>";
 		};
 		A6F4010D20839ABE0013C97B /* Frameworks */ = {
@@ -142,7 +206,7 @@
 				0F2AB3E52080BA4F0039BBB2 /* Sources */,
 				0F2AB3E62080BA4F0039BBB2 /* Frameworks */,
 				0F2AB3E72080BA4F0039BBB2 /* Resources */,
-				A6F4011C20839AD10013C97B /* ShellScript */,
+				0F878FB4208448630084C13F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -160,6 +224,7 @@
 				0F2AB3F92080BA500039BBB2 /* Sources */,
 				0F2AB3FA2080BA500039BBB2 /* Frameworks */,
 				0F2AB3FB2080BA500039BBB2 /* Resources */,
+				0F878FBA208451D80084C13F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -216,7 +281,6 @@
 			files = (
 				0F2AB3F72080BA500039BBB2 /* LaunchScreen.storyboard in Resources */,
 				0F2AB3F42080BA500039BBB2 /* Assets.xcassets in Resources */,
-				0F2AB3F22080BA4F0039BBB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,19 +294,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A6F4011C20839AD10013C97B /* ShellScript */ = {
+		0F878FB4208448630084C13F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PureLayout.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		0F878FBA208451D80084C13F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/NImble.faramework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.faramework",
+				"$(SRCROOT)/Carthage/Build/iOS/PureLyout.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 			);
 			outputPaths = (
 			);
@@ -257,8 +335,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F2AB3EF2080BA4F0039BBB2 /* ViewController.swift in Sources */,
+				0F7AB83720849E140015F076 /* EventListUseCase.swift in Sources */,
+				0F7AB8332084974A0015F076 /* ConnpassEventModel.swift in Sources */,
+				0F7AB82E20848BA60015F076 /* EventListPresenter.swift in Sources */,
+				0F7AB8422085D1CD0015F076 /* EventListViewState.swift in Sources */,
 				0F2AB3ED2080BA4F0039BBB2 /* AppDelegate.swift in Sources */,
+				0F7AB83020848BED0015F076 /* EventListInteractor.swift in Sources */,
+				0F7AB83C20858D220015F076 /* ConnpassEventEntity.swift in Sources */,
+				0F7AB840208597DD0015F076 /* ConnpassEventListDateStore.swift in Sources */,
+				0F878FBF208489620084C13F /* EventListViewController.swift in Sources */,
+				0F878FB3208437680084C13F /* GlobalNavigationRouter.swift in Sources */,
+				0F7AB835208497F00015F076 /* EventCell.swift in Sources */,
+				0F7AB83920858C6D0015F076 /* EventListTranslator.swift in Sources */,
+				0F7AB83E20858D4F0015F076 /* EventListRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0F2AB3F02080BA4F0039BBB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F2AB3F12080BA4F0039BBB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F2AB3F52080BA500039BBB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -465,6 +546,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 422HRDQXFF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NewArchitectureSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,6 +571,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 422HRDQXFF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NewArchitectureSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
